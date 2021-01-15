@@ -28,3 +28,12 @@
 - these are the types in class/functions.
 - allow us to defines type of property, argument, return type at future point.
 - use in resusable of code.
+
+### Top & Bottom types 
+- There are two types of `Top` types.
+- One is `any` and second one is `unknown`.
+- `any` has no checks on nodes in object type.
+- `unknown` can be use when it's needs to be private.
+- There is one only type in `Bottom` types.
+- `never` it holds no values.
+  
