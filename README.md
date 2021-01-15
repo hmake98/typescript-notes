@@ -1,6 +1,7 @@
 # typescript-notes
-Some of notes from my typescript learning
+Some of the notes from typescript learning
 
-Documentation Contains
+Contains:
 - [Basics](https://github.com/hmake98/typescript-notes/blob/master/Basics.md)
-- [Interface & Classes](https://github.com/hmake98/typescript-notes/blob/master/Examples.md)
+- [Examples](https://github.com/hmake98/typescript-notes/blob/master/Examples.md)
+- [Notes](https://github.com/hmake98/typescript-notes/blob/master/Notes.md)
