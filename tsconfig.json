@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "outDir": "generated",
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "skipLibCheck": true, 
+        "resolveJsonModule": true
+    },
+    "exclude": [
+        "generated",
+        "node_modules"
+    ]
+}
