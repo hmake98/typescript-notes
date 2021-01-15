@@ -74,3 +74,5 @@ printSummary(newCar);
 printSummary(drink);
 
 // conclusion : can use single interface for multiple function arguments. 
+
+

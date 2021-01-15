@@ -1,14 +1,11 @@
 # Examples
 
-### Array examples
-- Try to initialize type to array whenever it create.
-- Never assign type `any` to array in case of initialization.
-  
+### Array examples  
 ```typescript 
 const cars: string[] = ['toyota', 'ford', 'ferrari']
 ```
 
-### Multiple array types
+### Multiple array union types
 - Can use `|` for multiple type init.
 
 ```typescript
@@ -64,11 +61,6 @@ const getVehical = (vehical: Car) => {
 ```
 
 ## Classes
-- `extends` inherites all things from class `Vehical`
-- default `modifier` of any method or variables is `public`.
-- `public` can be called everywhere, anytime.
-- `private` can be called by other methods in the class.
-- `protected` can be called by other methods in current class or other methods of child clsses.
 ```typescript
 class Vehical {
     drive(): void => {
@@ -90,6 +82,40 @@ const car = new Car();
 car.beep();
 car.drive();
 ```
+
+```typescript
+interface HasEmail {
+    email: string;
+    name: string;
+}
+
+export class Contact implements HasEmail {
+    email: string;
+    name: string;
+    constructor(name: string, email: string) {
+        this.email = email;
+        this.name = name;
+    }
+}
+
+```
+
+## Type aliases
+```typescript 
+type stringOrNumber = string | number;
+type hasName = { name: stirng };
+// in this, hasName could also contains other values. it won't give you error if you added one for variable in it.
+
+type NumVal = 1 | 2 | 3 | NumArr;
+interface NumArr extends Array<NumVal> {}
+const x: NumVal = [1,2,3,4,5,6,7,8,[1,2,3,4,5]];
+```
+
+## Generic Types 
+- See generic type examples in generic.ts file into repo.
+
+
+
 
 
 

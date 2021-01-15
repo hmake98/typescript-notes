@@ -19,7 +19,6 @@
 - There is no performance optimization in any logic we made.
 
 ## Types
-
 - There are two types of Types in typescript
     - Primitive types
         - number
@@ -34,14 +33,8 @@
         - arrays
         - classes
         - objects
-
 ### Annotations
-
 - It's a code, we can tell typescript what type of value a variable will refer to
-
-### Interface
-
-- Typescript automatically tries to figure out what type of value a variable refers to
 
 ### Typescript examples
 
@@ -66,8 +59,3 @@ let newFunction: void = (i: number) => {
     // not returning anything
 }
 ```
-
-
-
-
-

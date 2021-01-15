@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "interface": "ts-node interfaces.ts", 
+    "interface": "ts-node interfaces.ts",
+    "generic": "ts-node generic.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
