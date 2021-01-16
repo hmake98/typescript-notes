@@ -2,7 +2,7 @@
 // Generic type simple example.
 // You can pass T as a reference type of data.
 // Then you can pass mutliple type of data as param.
-class MainTest<T> {
+class MainTest {
     printMyName<T>(name: T) {
         console.log(name)
     }
