@@ -1,4 +1,4 @@
-# typescript-notes
+# Typescript Notes
 Some of the notes from typescript learning
 
 Contains:
